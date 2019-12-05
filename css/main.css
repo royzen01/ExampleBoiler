@@ -98,6 +98,101 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#wrapper {
+  width: 960px;
+  font-size: 19px;
+  line-height: 32px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#menu {
+  height: 200px;
+  line-height: 200px;
+}
+.margin_left_right_auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gr_width_large{
+  width: 593px;
+}
+
+.gr_width_small{
+  width: 367px;
+}
+
+.float_left{
+  float: left;
+}
+
+.float_right{
+  float: right;
+}
+
+.clear_float{
+  clear: both;
+}
+.reset_margin_padding{
+  margin: 0px;
+  padding: 0px;
+}
+
+#hero_div{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  
+}
+
+#masthead{
+  height: 123px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 76px;
+}
+
+#masthead_landing{
+  height: 367px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 76px;
+  margin-top: 45px;
+}
+
+.mastheadTopMargin{
+  margin-top: 20px;
+}
+
+#primaryLinks {
+  height: 100px;
+  line-height: 100px;
+}
+
+#menu li {
+  display: inline;
+}
+
+#side_photo{
+  width: 320px;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.callout{
+  width: 320px;
+  height: 196px;
+}
+
+
+.position_absolute {
+  position: absolute;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -192,9 +287,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
